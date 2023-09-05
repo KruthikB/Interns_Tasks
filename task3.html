@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        h1{
+            text-align: center;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            
+        }
+        .box{
+            background-color: rgb(197, 197, 197);
+            max-width: 700px;
+            padding: 20px;
+            border: 1px solid black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .links{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+            border-right: 1px solid black;
+            margin-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>This is Task 3</h1>
+    <h1>Task 3</h1>
+
+    <div class="box">
+        <p>Click any of the following links</p>
+
+        <div class="links">
+            <ul>
+                <li class="first"><a href="#">  Opens in New</a></li>
+                <li><a href="#">  Opens in Self</a></li>
+                <li><a href="#">  Opens in Parent</a></li>
+                <li><a href="#">  Opens in Body</a></li>
+                <li><a href="#">  Send Email</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
