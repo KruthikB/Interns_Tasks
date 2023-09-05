@@ -1,11 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>This is Task 2</h1>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            body{
+                padding: 0;
+                margin: 0;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+            p{
+                padding: 0;
+                margin: 0;
+            }
+            h1{
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+            ul{
+                margin: 0;
+            }
+            .list_box{
+                border: 1px solid black;
+                border-collapse: collapse;
+                max-width: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 20px;
+                text-align: center;
+                margin-top: 200px;
+            }
+            .list_content{
+                max-width: fit-content;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Task 2</h1>
+
+        <div class="list_box">
+            <p>Lists can be nested ( list inside list ):</p>
+
+            <div class="list_content">
+                <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <ul>
+                        <li>Black Tea</li>
+                        <li>Green Tea</li>
+                    </ul>
+                    <li>Milk</li>
+                </ul>
+            </div>
+            
+        </div>
+    </body>
+    </html>
