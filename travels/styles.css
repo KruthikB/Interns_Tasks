@@ -1,0 +1,29 @@
+.navigation {
+    background: linear-gradient(
+      rgb(204, 204, 255),
+      rgb(245, 245, 251),
+      rgb(255, 255, 255)
+    );
+    
+  }
+  
+  .main {
+    background-image: url("wall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+  }
+  
+  #p1 {
+    width: 800px;
+    font-weight: 500;
+  }
+  
+  .grid-style {
+    background: linear-gradient(315deg, #ffffff 0%, #a7c8fb);
+  }
+  .footer{
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    background: linear-gradient(315deg, #ffffff 0%, #a7c8fb);
+  }
